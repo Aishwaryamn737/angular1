@@ -1,0 +1,14 @@
+<p>use-http1 works!</p>
+<button (click)="ShowUsers()" >Users</button>
+<ul>
+    <li *ngFor="let user of users">
+        <div style="background-color: blue;color:aqua"> {{user.id}}</div>
+        <div>{{user.name}}</div>
+        <div>{{user.username}}</div>
+        <div>{{user.email}}</div>
+        <div>{{user.phone}}</div>
+        <div>{{user.website}}</div>
+        <!-- <hr/>
+        <div>{{user.addresss.street}}</div> -->
+    </li>
+</ul>

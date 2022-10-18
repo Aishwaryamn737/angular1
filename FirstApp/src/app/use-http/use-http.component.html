@@ -1,0 +1,33 @@
+<p>use-http works!</p>
+<button (click)="ShowComments()" >Comments</button>
+<button (click)="AccessWebApi()" >Access Web Api</button>
+<ul>
+    <li *ngFor="let comment of comments">
+        <div style="background-color: blue;color:aqua"> {{comment.title}}</div>
+        <hr/>
+        <div>{{comment.body}}</div>
+    </li>
+</ul>
+
+<hr/>
+<p>================= Accessing web api===================</p>
+<h5>{{webApiData | json}}</h5>
+
+<button (click)="ShowUsers()" >Users</button>
+<ul>
+    <li *ngFor="let user of users">
+        <div style="background-color: blue;color:aqua"> {{user.id}}</div>
+        <hr/>
+        <div>{{user.name}}</div>
+        <hr/>
+        <div>{{user.username}}</div>
+        <hr/>
+        <div>{{user.email}}</div>
+        <hr/>
+        <div>{{user.phone}}</div>
+        <hr/>
+        <div>{{user.website}}</div>
+        <!-- <hr/>
+        <div>{{user.addresss.street}}</div> -->
+    </li>
+</ul>

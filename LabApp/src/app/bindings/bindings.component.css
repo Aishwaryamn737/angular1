@@ -1,0 +1,28 @@
+.divtag{border: solid;
+margin-top: 35px;
+padding: 25px;
+margin-left: 367px;
+margin-right: 140px;
+background-color: #e3f2fd;
+border-color: #3f3f99;
+}
+
+.user{
+    margin-bottom: 12px;
+    width: 295px;
+}
+
+.password{
+    width: 263px;
+}
+
+.login{
+    margin-left: 112px;
+    margin-top: 18px;
+    padding: 3px;
+}
+
+.add{
+    margin-left: 259px;
+    margin-top: 31px;
+}

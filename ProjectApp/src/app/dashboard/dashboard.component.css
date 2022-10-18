@@ -1,0 +1,48 @@
+.img1{
+    width: 762px;
+    margin-left: 239px;
+    margin-top: 5px;
+}
+
+
+.divtag{
+    display: inline-block;
+}
+
+.button1{
+    /* margin-left: 15px; */
+    padding: 4px;
+    background-color: white;
+    color: black;
+    /* margin-right: 3px;
+    margin-bottom: 7px; */
+    border-color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+button{
+    margin-left: 15px;
+    padding: 4px;
+    background-color: white;
+    color: purple;
+    margin-right: 3px;
+    margin-bottom: 7px;
+    border-color: white;
+    box-shadow: 2px 2px 2px purple;
+}
+
+.divtag1{
+    display: inline-block;
+    border: double;
+    text-align: center;
+    padding: 6px;
+    width: 350px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+    background-color: azure;
+}
+
+p{
+    text-align: left;
+}
+

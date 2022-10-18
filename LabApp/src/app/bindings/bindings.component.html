@@ -1,0 +1,41 @@
+<h1 style="color: #3f3f99;
+font-family: cursive;">Login Page</h1>
+
+<div class="divtag">
+    <label >User : </label>
+    <input class="user" type = "text" [(ngModel)]="user" placeholder="Enter the User Name">
+    <!-- <span style="color: red;">{{user}}</span> -->
+    <br/>
+    <label>Password : </label>
+    <input class="password" type = "password" [(ngModel)]="password" placeholder="Enter a Password">
+    <!-- <span style="color: red;">{{password}}</span> -->
+    <br/>
+
+    <div>
+        <button class="login" (click)="Login(statusDiv2)">Login</button>
+        <div #statusDiv2>
+            {{status2}}
+        </div>  
+
+        <button class="add" (click)="AddUser(statusDiv)">Add User</button>
+        <div #statusDiv>
+            {{status}}
+        </div>
+
+   </div>
+    <hr/>
+
+    <h3 style="color: #3f3f99;">Users List</h3>
+
+    <table style="border-style: solid;border-width:2px">
+    <th>
+        <tr>
+            <td>Users</td>
+        </tr>
+    </th>
+    <tr *ngFor="let perUser of userArray">
+        <td>{{perUser.user}}</td>
+    </tr>
+    </table>
+
+</div>

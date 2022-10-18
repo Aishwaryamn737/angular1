@@ -1,0 +1,35 @@
+<h3>{{title}}</h3>
+
+<div class="divtag">
+  <a routerLink="/login">Login</a>
+  
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/login">Cart</a>
+  
+</div>
+
+<!-- <div class="divtag">
+  <b style="font-size: larger;">Welcome</b>
+  <br/>
+  <p style="font-size: 11px;">Welcome! Please enter your details</p>
+
+  <br/>
+  <label>UserName</label>
+  <input id="usertag" class="user" type="text" class="user" [(ngModel)]="user"  placeholder="Enter your username">
+  <br/>
+
+  <label>Password</label>
+  <input  id="passwordtag" class="password" type="password" [(ngModel)]="password" placeholder="Enter your password">
+  <br/>
+  <br/>
+  <a href="">
+  <button class="buttontag" (click)="Login(statusDiv)">Log in</button> </a>
+  <br/>
+  <br/>
+  <div style="text-align: center;" #statusDiv>
+      {{status}}
+  </div>  
+  
+</div> -->
+
+<router-outlet></router-outlet>

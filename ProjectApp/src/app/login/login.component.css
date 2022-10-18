@@ -1,0 +1,35 @@
+.divtag{
+    /* border: solid; */
+    border-style: ridge;
+    padding: 22px;
+    margin-top: -286px;
+    margin-left: 636px;
+    margin-right: 379px;
+    background-color: #f5f5f5;
+}
+img{
+    margin-top: 33px;
+    margin-left: 261px;
+    height: 282px;
+}
+#usertag{
+    margin-bottom: 9px;
+    border: linen;
+    padding: 4px;
+    margin-top: 3px;
+    width: 221px;
+}
+
+#passwordtag{
+    margin-bottom: 9px;
+    border: linen;
+    padding: 4px;
+    margin-top: 3px;
+    width: 221px;
+}
+
+.buttontag{
+    width: 221px;
+    color: whitesmoke;
+    background-color: black;
+}

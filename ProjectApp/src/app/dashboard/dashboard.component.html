@@ -1,0 +1,45 @@
+<body style="background-color: #ce93d8;;">
+<img class="img1" src="../assets/OIP.jpg"/>
+<h1 style="color: white; font-size: large;margin-left: 15px;"><strong>LATEST PRODUCT</strong></h1>
+
+
+    <div>
+        <button (click)="AccessWebApi()">View Shoes</button>
+    </div>
+
+   
+<div class="divtag"  *ngFor="let single of webApiData" >
+    
+                     <div class="divtag1"  *ngIf="single.code < 4">
+                    <img [src]="single.imageUrl"/>
+                    <hr/>
+                    <p><strong>{{single.name}}</strong></p>
+                    <P>{{single.shortD}}</P>
+                    <p>{{single.cost}}</p>
+                    <P>Delivery by {{single.days}} days </P>
+                    <form action="../dashboard/" method="post">
+                    <button class="button1">Add to Cart</button>
+                </form>
+                </div> 
+ </div>
+
+
+<div>
+    <button (click)="AccessWebApi2()">View bags </button>
+</div>
+
+<div  *ngFor="let single of webApiData2" >
+    <div class="divtag1"  *ngIf="single.code > 3">
+   <img [src]="single.imageUrl"/>
+   <hr/>
+   <p>{{single.name}}</p>
+   <P>{{single.shortD}}</P>
+   <p>{{single.cost}}</p>
+   <P>Delivery by {{single.days}} days </P>
+</div> 
+</div>
+                
+</body>
+
+                   
+              

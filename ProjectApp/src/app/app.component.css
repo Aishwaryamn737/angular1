@@ -1,0 +1,18 @@
+.divtag{
+    border: solid;
+    padding: 8px;
+    background-color: #2982a9;
+    border-color: white;
+    box-shadow: 1px 1px 1px pink;
+}
+
+a{
+    color: whitesmoke;
+    padding: 8px;
+    margin-right: 55px;
+}
+
+a:hover{
+    color: black;
+    box-shadow: 2px 2px 2px black;
+}

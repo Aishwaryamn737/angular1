@@ -1,0 +1,10 @@
+<p>twitter works!</p>
+<ul>
+    <li *ngFor="let n of PlugTwitter()">
+        {{n}}
+    </li>
+</ul>
+
+<hr/>
+<h3> Directly accessing the injection service</h3>
+{{twiObj.showtwitterNotification()}}
